@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae | M Yusuf Shafiudin F</title>
+    <!-- Hubungkan ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font dan Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Menu Navigasi -->
+    <header>
+        <nav>
+            <div class="logo">My<span>CV</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Bagian Beranda (Hero) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Halo, Saya <span class="highlight">M Yusuf Shafiudin F</span></h1>
+            <h3>Junior Web & App Developer</h3>
+            <p>Lulusan SMK Tunas Harapan Pati yang antusias di bidang IT. Memiliki pengalaman dalam merancang dan mengembangkan proyek website dan aplikasi perpustakaan, serta siap untuk belajar dan berkontribusi secara profesional.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn primary-btn">Hubungi Saya</a>
+                <a href="#" class="btn secondary-btn">Unduh CV</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="profile-yusuf.jpeg" alt="Foto Profil" class="profile-pic">
+        </div>
+    </section>
+
+    <!-- Bagian Tentang Saya (Biodata Lengkap) -->
+    <section id="about" class="about">
+        <h2 class="section-title">Tentang <span>Saya</span></h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Saya adalah lulusan SMK Tunas Harapan Pati yang memiliki semangat tinggi dalam pengembangan perangkat lunak (Software Development). Saya memiliki pengalaman praktis dari proyek sekolah seperti pembuatan web dan aplikasi perpustakaan.</p>
+                <ul class="personal-info">
+                    <li><strong>Nama Lengkap:</strong> M Yusuf Shafiudin F</li>
+                    <li><strong>Tempat, Tgl Lahir:</strong> Pati, 7 April 2009</li>
+                    <li><strong>Jenis Kelamin:</strong> Laki-laki</li>
+                    <li><strong>Agama:</strong> ISLAM</li>
+                    <li><strong>Alamat Lengkap:</strong> DS KLUMPIT KECT TLOGOWUNGU KAB PATI</li>
+                    <li><strong>Email:</strong> YUSUF.SHAFIUDIN.F@gmail.com</li>
+                    <li><strong>Telepon/WA:</strong> 081575727141</li>
+                    <li><strong>Pendidikan:</strong> SMK Tunas Harapan Pati</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Keahlian -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Keahlian <span>Saya</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, PHP, MySQL</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Software Development</h3>
+                <p>Java, C++, Git/GitHub</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Manajemen Database</h3>
+                <p>Merancang struktur dan relasi database</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Pengalaman -->
+    <section id="experience" class="experience">
+        <h2 class="section-title">Pengalaman <span>& Pendidikan</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Proyek Web & Aplikasi Perpustakaan</h3>
+                    <h4>Pengalaman Sekolah</h4>
+                    <p>Selama masa sekolah, saya berhasil merancang dan membangun proyek website, serta mengembangkan sistem aplikasi perpustakaan. Proyek ini melatih saya dalam pemrograman dan pemecahan masalah.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Siswa / Lulusan</h3>
+                    <h4>SMK Tunas Harapan Pati</h4>
+                    <p>Mempelajari dasar-dasar pemrograman, pengembangan perangkat lunak, serta keterampilan teknis pendukung lainnya yang dibutuhkan di dunia industri IT.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Kontak -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Hubungi <span>Saya</span></h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Nama Anda" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Email Anda" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" placeholder="Pesan Anda" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Kirim Pesan</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 M Yusuf Shafiudin F. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
